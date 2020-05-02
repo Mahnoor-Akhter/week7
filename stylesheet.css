@@ -1,0 +1,160 @@
+header
+{
+    background-image: url(../images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid yelllow;
+}
+body
+{
+    background-color: black;
+}
+nav ul li
+{
+       color: white;
+    text-decoration: none;
+    background-color:darkgrey;
+    display:inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+nav ul
+{
+   text-align: center;
+    font-size: 1.2em;  
+}
+nav ul li:hover{
+    
+    background-color: palegreen;
+}
+nav
+{
+    background-color: grey;
+    padding: 10px;
+}
+#content {
+    color: white;
+    background-color: black;
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border:1px solid grey;
+}
+
+aside {
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+    width 17.5%;
+    float: right;
+}
+
+
+aside ul li a{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li{
+    color: white;
+    list-style-type: none;
+}
+
+aside ol li{
+    list-style-type: none;
+}
+h3
+{
+    text-align: left;
+    color: white;
+}
+#menuitems
+{
+    border-top: 4px solid white;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+
+
+
+
+
+#bigPic {
+    float: right;
+}
+
+p {
+    text-align: left;
+    color: white;
+}
+
+#staff {
+    border: 1px solid green;
+    border-style:outset;
+}
+
+h2 {
+    color: white;
+    text-align: left;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    display: block;
+    
+}
+
+.col_article {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 2px solid white;
+}
+
+.backgroundImageB {
+    background-image: url(images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3ps solid black;
+    margin: 2px;
+}
+
+.backgroundImageC {
+    background-image: url(images/carrots.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3ps solid black;
+    margin: 2px;
+    
+}
+
+.backgroundImageE {
+    background-image: url(images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3ps solid black;
+    margin: 2px;
+}
+
+#videotour {
+    float: right;
+    display: inline-block;
+}
+
+#cols {
+    column-count: 3;
+    column-gap: 50px;
+    column-rule: 1px solid white;
+}
